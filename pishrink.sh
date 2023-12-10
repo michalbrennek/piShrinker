@@ -174,6 +174,7 @@ Usage: $0 [-adhrsvzZ] imagefile.img [newimagefile.img]
   -Z         Compress image after shrinking with xz
   -a         Compress image in parallel using multiple cores
   -d         Write debug messages in a debug log file
+             Export variable PISHRINK_GZIP or PISHRINK_XZ to overwrite default gzip or xz options 
 EOM
 	echo "$help"
 	exit 1
